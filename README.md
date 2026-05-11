@@ -44,6 +44,8 @@ The project focused on exploratory data analysis, data visualization, and commun
 - Master of Data Science — University of British Columbia
 - Master's Degree in Medicinal Chemistry and Pharmaceutical Technologies
 
+<div style="display: flex; gap: 10px;">
+
 <a href="https://www.linkedin.com/in/valeria-siciliano-/" target="_blank">
   <button>LinkedIn</button>
 </a>
@@ -55,3 +57,5 @@ The project focused on exploratory data analysis, data visualization, and commun
 <a href="mailto:valeriasic002@gmail.com">
   <button>Email Me</button>
 </a>
+
+</div>
