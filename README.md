@@ -49,3 +49,11 @@ The project focused on exploratory data analysis, data visualization, and commun
 - [LinkedIn](https://www.linkedin.com/in/valeria-siciliano-/)
 - [GitHub](https://github.com/Valeria-mds)
 - Email: valeriasic002@gmail.com
+
+<a href="https://www.linkedin.com/in/valeria-siciliano-/" target="_blank">
+  <button>LinkedIn</button>
+</a>
+
+<a href="https://github.com/Valeria-mds" target="_blank">
+  <button>GitHub</button>
+</a>
