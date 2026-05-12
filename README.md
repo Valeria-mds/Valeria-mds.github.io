@@ -1,11 +1,7 @@
 <style>
-  * {
-    box-sizing: border-box;
-  }
+  * { box-sizing: border-box; }
 
-  body {
-    margin: 0;
-  }
+  body { margin: 0; }
 
   button {
     padding: 8px 14px;
@@ -16,9 +12,7 @@
     font-size: 14px;
   }
 
-  button:hover {
-    background-color: #f0f0f0;
-  }
+  button:hover { background-color: #f0f0f0; }
 
   .portfolio-container {
     display: flex;
@@ -54,22 +48,9 @@
     margin-top: 20px;
   }
 
-  .project-buttons {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-top: 10px;
-  }
-
   @media (max-width: 800px) {
-    .portfolio-container {
-      flex-direction: column;
-    }
-
-    .sidebar,
-    .main-content {
-      width: 100%;
-    }
+    .portfolio-container { flex-direction: column; }
+    .sidebar, .main-content { width: 100%; }
   }
 </style>
 
@@ -77,13 +58,17 @@
 
   <div class="sidebar">
 
-    <img src="assets/images/profile.jpg" class="profile-img">
+    <img src="assets/images/profile.jpg" class="profile-img" alt="Profile photo of Valeria Siciliano">
 
     <h1>Valeria Siciliano</h1>
 
     <p>Master of Data Science Student at UBC</p>
 
     <div class="button-row">
+
+      <a href="/projects">
+        <button>Projects</button>
+      </a>
 
       <a href="https://www.linkedin.com/in/valeria-siciliano-/" target="_blank">
         <button>LinkedIn</button>
@@ -114,72 +99,22 @@
       My work focuses on building practical and interpretable solutions that connect healthcare, clinical terminology, and data science.
     </p>
 
-    <h2>Projects</h2>
-
-    <h3>MedDRA Autocoder</h3>
+    <h2>What I’m interested in</h2>
 
     <p>
-      Developing an NLP-assisted clinical terminology coding system in collaboration with BC Children’s Hospital Research Institute.
-      The project focuses on transforming free-text clinical descriptions into standardized MedDRA terminology using rule-based matching,
-      fuzzy matching, and machine learning approaches.
+      Healthcare NLP, machine learning, clinical data processing, data visualization, and reproducible data science workflows.
     </p>
+
+    <h2>Featured Work</h2>
 
     <p>
-      Due to confidentiality and data privacy agreements, the source code and datasets are not publicly available.
+      I have worked on projects involving clinical terminology standardization, retrieval-augmented generation, and interactive dashboards.
     </p>
 
-    <p>
-      <strong>Skills:</strong> Python, NLP, Clinical Data Processing, Fuzzy Matching, Machine Learning, Data Pipelines
-    </p>
-
-    <hr>
-
-    <h3>Foodlytics Dashboard</h3>
-
-    <p>
-      Interactive data analysis and visualization project exploring food-related datasets through statistical analysis and dashboard development.
-      The project was originally developed in Python and later adapted in R to explore cross-language implementation.
-    </p>
-
-    <p>
-      <strong>Skills:</strong> Python, R, Data Visualization, Statistical Analysis, Dashboards
-    </p>
-
-    <div class="project-buttons">
-
-      <a href="https://github.com/UBC-MDS/DSCI-532_2026_23_foodlytics" target="_blank">
-        <button>Python Version</button>
-      </a>
-
-      <a href="https://github.com/Valeria-mds/foodlytics-R" target="_blank">
-        <button>R Version</button>
-      </a>
-
-    </div>
-
-    <hr>
-
-    <h3>Amazon Reviews RAG Pipeline</h3>
-    
-    <p>
-      Hybrid retrieval and retrieval-augmented generation pipeline using BM25, FAISS, and transformer embeddings to retrieve and summarize
-      product review information.
-    </p>
-    
-    <p>
-      <strong>Skills:</strong> Python, FAISS, BM25, LangChain, Hugging Face, NLP
-    </p>
-    
-    <div class="project-buttons">
-    
-      <a href="https://github.com/UBC-MDS/DSCI_575_project_nguye106_valerias" target="_blank">
-        <button>GitHub Repository</button>
-      </a>
-    
-    </div>
-    
+    <a href="/projects">
+      <button>View Projects</button>
+    </a>
 
   </div>
 
 </div>
-
