@@ -160,16 +160,26 @@
     <hr>
 
     <h3>Amazon Reviews RAG Pipeline</h3>
-
+    
     <p>
       Hybrid retrieval and retrieval-augmented generation pipeline using BM25, FAISS, and transformer embeddings to retrieve and summarize
       product review information.
     </p>
-
+    
     <p>
       <strong>Skills:</strong> Python, FAISS, BM25, LangChain, Hugging Face, NLP
     </p>
+    
+    <div class="project-buttons">
+    
+      <a href="https://github.com/UBC-MDS/DSCI_575_project_nguye106_valerias" target="_blank">
+        <button>GitHub Repository</button>
+      </a>
+    
+    </div>
+    
 
   </div>
 
 </div>
+
